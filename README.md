@@ -1,4 +1,4 @@
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a630a9d5-f3f2-4795-ba08-1bbaed9ec29a/deploy-status)](https://app.netlify.com/sites/anapimolodec/deploys)
 <h1 align="center">
   Personal Portfolio of Aiaru Mukhamedyarova
 </h1>
