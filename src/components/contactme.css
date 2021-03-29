@@ -1,0 +1,124 @@
+.container {
+	display: flex;
+	
+	flex-direction: column;
+	justify-content: center;
+	background-color: #457B9D;
+	min-height: 100vh;
+}
+.contact-title {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 5rem;
+	font-weight: 700;
+	/*text-shadow: 10px 0px #A8DADC;*/
+	color: #F1FAEE;
+	padding-bottom: 1rem;
+	text-align: center;
+}
+.contact-form {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  	border-radius: 15px;
+  	padding: 20px;
+  	margin-right: 25vw;
+  	margin-left: 25vw;
+  	background-color: #E63946;
+  	margin-bottom: 50px;
+  	font-size: 1.5rem;
+  	color: white;
+  	font-weight: 500;
+}
+
+.form-line {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 20px;
+	margin-top: 6px; /* Add a top margin */
+  	margin-bottom: 16px; /* Bottom margin */
+}
+
+input[type=text], input[type=email], textarea {
+  width: 70%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 15px; 
+  box-sizing: border-box; 
+  
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+label {
+	text-align: right;
+	padding-right: 20px;
+	padding-top: 10px;
+	width: 30%;
+}
+
+.form-button {
+	width: 100%;
+	text-align: center;
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+input[type=submit] {
+	color: black;
+	background-color:white;
+	font-size: 1rem;
+	padding: 8px;
+	border-width: 0px;
+	border-radius: 15px;
+	box-shadow: 2px 2px rgba(0,0,0,0.3);
+	font-family: 'Quicksand';
+	transition: 0.5s ease;
+	margin:2px;
+	margin-right: 20px;
+}
+
+input[type=submit]:hover {
+	background: #457B9D;
+	color: white;
+}
+
+
+@media only screen and (max-width: 850px) { 
+.contact-form {
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+}
+.form-line {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin:0;
+	padding: 0;
+	padding-bottom: 5px;
+  	
+}
+input[type=text], input[type=email], textarea {
+  width: 100%; 
+  padding-top: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 15px; 
+  box-sizing: border-box; 
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+label {
+	text-align: left;
+	margin-bottom: 10px;
+	}
+.form-button {
+	margin-top: 10px;
+}
+}
